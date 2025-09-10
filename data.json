@@ -1,0 +1,975 @@
+{
+   "semesters":[
+      {
+         "key":"I",
+         "name":"Semestre I",
+         "courses":[
+            {
+               "id":"ETIC_GRAL",
+               "title":"Ética General",
+               "credits":1,
+               "type": "CBFH"
+            },
+            {
+               "id":"LEN_CULT",
+               "title":"Lenguaje y Cultura",
+               "credits":2,
+               "type": "CBFH"
+            },
+            {
+               "id":"GEOM_ANAL",
+               "title":"Geometría Analítica",
+               "credits":3,
+               "type": "CBD"
+            },
+            {
+               "id":"CALC_DIFF",
+               "title":"Cálculo Diferencial",
+               "credits":3,
+               "type": "CBD"
+            },
+            {
+               "id":"FUND_QUIM",
+               "title":"Fundamentos de Química",
+               "credits":3,
+               "type": "CBD"
+            },
+            {
+               "id":"OP_CBD",
+               "title":"Optativa CBD",
+               "credits":3,
+               "type": "CBD"
+            },
+            {
+               "id":"INTRO_ING_AERO",
+               "title":"Introducción a la Ingeniería Aeroespacial",
+               "credits":1,
+               "type": "CP"
+            }
+         ]
+      },
+      {
+         "key":"II",
+         "name":"Semestre II",
+         "courses":[
+            {
+               "id":"HUM_CUL_CIU",
+               "title":"Humanismo y Cultura Ciudad",
+               "credits":1,
+               "type": "CBFH"
+            },
+            {
+               "id":"ALG_LINEAL",
+               "title":"Álgebra Lineal",
+               "credits":3,
+               "type": "CBD"
+            },
+            {
+               "id":"CALC_INT",
+               "title":"Cálculo Integral",
+               "credits":3,
+               "type": "CBD"
+            },
+            {
+               "id":"MEC_VEC_EST",
+               "title":"Mecánica Vectorial Estática",
+               "credits":2,
+               "type": "CBD"
+            },
+            {
+               "id":"SIS_AER_I",
+               "title":"Sistemas de Aeronaves I",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"DIS_AS_COM",
+               "title":"Diseño Asistido Por Computador",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"PROGRAMACION",
+               "title":"Programación",
+               "credits":2,
+               "type": "CP"
+            }
+         ]
+      },
+      {
+         "key":"III",
+         "name":"Semestre III",
+         "courses":[
+            {
+               "id":"CRIST",
+               "title":"Cristología",
+               "credits":1,
+               "type": "CBFH"
+            },
+            {
+               "id":"LIN_FOR_I",
+               "title":"Línea de Formación I",
+               "credits":2,
+               "type": "CBFH"
+            },
+            {
+               "id":"EST_DIS_EXP",
+               "title":"Estadística y Diseño de Experimentos",
+               "credits":3,
+               "type": "CBD"
+            },
+            {
+               "id":"CALC_VEC",
+               "title":"Cálculo Vectorial",
+               "credits":3,
+               "type": "CBD"
+            },
+            {
+               "id":"MEC_VEC_DIN",
+               "title":"Mecánica Vectorial Dinámica",
+               "credits":2,
+               "type": "CBD"
+            },
+            {
+               "id":"SIS_AER_II",
+               "title":"Sistemas de Aeronaves II",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"MEC_MAT",
+               "title":"Mecánica de Materiales",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"LAB_MEC_MAT",
+               "title":"Lab. Mecánica de Materiales",
+               "credits":1,
+               "type": "CP"
+            }
+         ]
+      },
+      {
+         "key":"IV",
+         "name":"Semestre IV",
+         "courses":[
+            {
+               "id":"ETIC_PRO",
+               "title":"Ética Profesional",
+               "credits":1,
+               "type": "CBFH"
+            },
+            {
+               "id":"LIN_FOR_II",
+               "title":"Línea de Formación II",
+               "credits":2,
+               "type": "CBFH"
+            },
+            {
+               "id":"MET_NUM",
+               "title":"Métodos Numéricos",
+               "credits":2,
+               "type": "CBD"
+            },
+            {
+               "id":"ECU_DIF",
+               "title":"Ecuaciones Diferenciales",
+               "credits":3,
+               "type": "CBD"
+            },
+            {
+               "id":"ELEC_MAG",
+               "title":"Electricidad y Magnetismo",
+               "credits":3,
+               "type": "CBD"
+            },
+            {
+               "id":"MET_EXP_FIS",
+               "title":"Métodos Experimentales en Física",
+               "credits":2,
+               "type": "CBD"
+            },
+            {
+               "id":"TERMO_APL",
+               "title":"Termodinámica Aplicada",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"LAB_TERMO",
+               "title":"Lab. Termodinámica",
+               "credits":1,
+               "type": "CP"
+            }
+         ]
+      },
+      {
+         "key":"V",
+         "name":"Semestre V",
+         "courses":[
+            {
+               "id":"LIN_FOR_III",
+               "title":"Línea de Formación III",
+               "credits":2,
+               "type": "CBFH"
+            },
+            {
+               "id":"TRANSF_CALOR",
+               "title":"Transferencia de Calor Aplicada",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"LAB_TRANSF_CALOR",
+               "title":"Lab. Transferencia de Calor",
+               "credits":1,
+               "type": "CP"
+            },
+            {
+               "id":"MATERIALES_AERO",
+               "title":"Materiales Aeroespaciales",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"LAB_MATERIALES_AERO",
+               "title":"Lab. Materiales Aeroespaciales",
+               "credits":1,
+               "type": "CP"
+            },
+            {
+               "id":"FUND_AEROD",
+               "title":"Fundamentos de Aerodinámica",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"LAB_FUND_AEROD",
+               "title":"Lab. Fundamentos de Aerodinámica",
+               "credits":1,
+               "type": "CP"
+            },
+            {
+               "id":"DIS_MAQ",
+               "title":"Diseño de Máquinas",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"LEGISLACION",
+               "title":"Legislación Áerea y Regulaciones",
+               "credits":1,
+               "type": "CP"
+            },
+            {
+               "id":"ELEC_I",
+               "title":"Electiva I",
+               "credits":2,
+               "type": "CDI"
+            }
+         ]
+      },
+      {
+         "key":"VI",
+         "name":"Semestre VI",
+         "courses":[
+            {
+               "id":"EMP_RES_SOC",
+               "title":"Emprenderismo y Responsabilidad Social",
+               "credits":2,
+               "type": "CBFH"
+            },
+            {
+               "id":"PROP_I",
+               "title":"Propulsión I",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"LAB_PROP_I",
+               "title":"Lab. Propulsión I",
+               "credits":1,
+               "type": "CP"
+            },
+            {
+               "id":"MAN_AERO",
+               "title":"Manufactura de Aeronaves",
+               "credits":3,
+               "type": "CP"
+            },
+            {
+               "id":"LAB_MAN_AERO",
+               "title":"LAB. Manufactura de Aeronaves",
+               "credits":1,
+               "type": "CP"
+            },
+            {
+               "id":"AERODINAMICA",
+               "title":"Aerodinámica",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"LAB_AERODINAMICA",
+               "title":"Lab. Aerodinámica",
+               "credits":1,
+               "type": "CP"
+            },
+            {
+               "id":"SIS_ELECT_AER",
+               "title":"Sistemas Eléctricos de Aeronaves",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"LAB_SIS_ELECT_AER",
+               "title":"Lab. Sistemas Eléctricos de Aeronaves",
+               "credits":1,
+               "type": "CP"
+            }
+         ]
+      },
+      {
+         "key":"VII",
+         "name":"Semestre VII",
+         "courses":[
+            {
+               "id":"AERO_MANT",
+               "title":"Aeronavegabilidad y Mantenimiento",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"ING_COHE_SAT",
+               "title":"Ingeniería de Cohetes y Satélites",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"ESTRUCTURAS",
+               "title":"Estructuras Aeronáuticas",
+               "credits":3,
+               "type": "CP"
+            },
+            {
+               "id":"DINAMICA_VUELO",
+               "title":"Dinámica de Vuelo",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"AVIONICA",
+               "title":"Aviónica",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"GES_PROYECTO",
+               "title":"Gestión de Proyectos",
+               "credits":3,
+               "type": "CP"
+            },
+            {
+               "id":"CON_PROPREFISIONAL",
+               "title":"Contexto Profesional",
+               "credits":1,
+               "type": "CP"
+            },
+            {
+               "id":"OPT_I",
+               "title":"Optativa I",
+               "credits":2,
+               "type": "CDI"
+            }
+         ]
+      },
+      {
+         "key":"VIII",
+         "name":"Semestre VIII",
+         "courses":[
+            {
+               "id":"CERT_EMP_PROD",
+               "title":"Certificación de Empresas y Productos Aeronáuticos",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"DIS_AERO_I",
+               "title":"Diseño de Aeronaves I",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"REND_OP",
+               "title":"Rendimiento y Operaciones Aéreas",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"LAB_REND_OP",
+               "title":"Lab. Rendimiento y Operaciones Aéreas",
+               "credits":1,
+               "type": "CP"
+            },
+            {
+               "id":"CTRL_AUT_VUELO",
+               "title":"Control Automático de Vuelo",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"PROP_II",
+               "title":"Propulsión II",
+               "credits":3,
+               "type": "CP"
+            },
+            {
+               "id":"MET_INVES",
+               "title":"Metodología de la Investigación",
+               "credits":1,
+               "type": "CP"
+            },
+            {
+               "id":"ELECT_I",
+               "title":"Electiva I",
+               "credits":2,
+               "type": "CDI"
+            },
+            {
+               "id":"OPT_II",
+               "title":"Optativa II",
+               "credits":2,
+               "type": "CDI"
+            }
+         ]
+      },
+      {
+         "key":"IX",
+         "name":"Semestre IX",
+         "courses":[
+            {
+               "id":"GERE_COSTOS_AERO",
+               "title":"Gerencia y Costos de Aeronaves",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"FACT_HUM",
+               "title":"Factores Humanos en Aviación",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"GEST_MANT",
+               "title":"Gestión del Mantenimiento Aeronáutico",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"DIS_AERO_II",
+               "title":"Diseño de Aeronaves II",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"PRUE_NO_DEST",
+               "title":"Pruebas No Destructivas(NDT)",
+               "credits":2,
+               "type": "CP"
+            },
+            {
+               "id":"LAB_PRUE_NO_DEST",
+               "title":"Lab. Pruebas No Destructivas(NDT)",
+               "credits":1,
+               "type": "CP"
+            },
+            {
+               "id":"OPT_III",
+               "title":"Optativa III",
+               "credits":2,
+               "type": "CDI"
+            },
+            {
+               "id":"OPT_IV",
+               "title":"Optativa IV",
+               "credits":2,
+               "type": "CDI"
+            },
+            {
+               "id":"OPT_V",
+               "title":"Optativa V",
+               "credits":2,
+               "type": "CDI"
+            }
+         ]
+      }
+   ],
+   "links":[
+      {
+         "from":"GEOM_ANAL",
+         "to":"DIS_AS_COM",
+         "type":"prereq"
+      },
+      {
+         "from":"GEOM_ANAL",
+         "to":"ALG_LINEAL",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_DIFF",
+         "to":"ALG_LINEAL",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_DIFF",
+         "to":"CALC_INT",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_INT",
+         "to":"CALC_VEC",
+         "type":"prereq"
+      },
+      {
+         "from":"GEOM_ANAL",
+         "to":"MEC_VEC_EST",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_DIFF",
+         "to":"MEC_VEC_EST",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_DIFF",
+         "to":"PROGRAMACION",
+         "type":"prereq"
+      },
+      {
+         "from":"INTRO_ING_AERO",
+         "to":"SIS_AER_I",
+         "type":"prereq"
+      },
+      {
+         "from":"ALG_LINEAL",
+         "to":"MEC_MAT",
+         "type":"prereq"
+      },
+      {
+         "from":"MEC_VEC_EST",
+         "to":"MEC_MAT",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_INT",
+         "to":"MEC_MAT",
+         "type":"prereq"
+      },
+      {
+         "from":"ALG_LINEAL",
+         "to":"LAB_MEC_MAT",
+         "type":"prereq"
+      },
+      {
+         "from":"MEC_VEC_EST",
+         "to":"LAB_MEC_MAT",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_INT",
+         "to":"LAB_MEC_MAT",
+         "type":"prereq"
+      },
+      {
+         "from":"MEC_MAT",
+         "to":"LAB_MEC_MAT",
+         "type":"coreq"
+      },
+      {
+         "from":"SIS_AER_I",
+         "to":"SIS_AER_II",
+         "type":"prerep"
+      },
+      {
+         "from":"MEC_VEC_EST",
+         "to":"MEC_VEC_DIN",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_INT",
+         "to":"MEC_VEC_DIN",
+         "type":"prereq"
+      },
+      {
+         "from":"FUND_QUIM",
+         "to":"TERMO_APL",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_INT",
+         "to":"TERMO_APL",
+         "type":"prereq"
+      },
+      {
+         "from":"FUND_QUIM",
+         "to":"LAB_TERMO",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_INT",
+         "to":"LAB_TERMO",
+         "type":"prereq"
+      },
+      {
+         "from":"TERMO_APL",
+         "to":"LAB_TERMO",
+         "type":"prereq"
+      },
+      {
+         "from":"EST_DIS_EXP",
+         "to":"MET_NUM",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_VEC",
+         "to":"MET_NUM",
+         "type":"prereq"
+      },
+      {
+         "from":"PROGRAMACION",
+         "to":"MET_NUM",
+         "type":"prereq"
+      },
+      {
+         "from":"DIS_AS_COM",
+         "to":"DIS_MAQ",
+         "type":"prereq"
+      },
+      {
+         "from":"MEC_MAT",
+         "to":"DIS_MAQ",
+         "type":"prereq"
+      },
+      {
+         "from":"TERMO_APL",
+         "to":"TRANSF_CALOR",
+         "type":"prereq"
+      },
+      {
+         "from":"ECU_DIF",
+         "to":"TRANSF_CALOR",
+         "type":"prereq"
+      },
+      {
+         "from":"TRANSF_CALOR",
+         "to":"LAB_TRANSF_CALOR",
+         "type":"coreq"
+      },
+      {
+         "from":"TERMO_APL",
+         "to":"LAB_TRANSF_CALOR",
+         "type":"prereq"
+      },
+      {
+         "from":"ECU_DIF",
+         "to":"LAB_TRANSF_CALOR",
+         "type":"prereq"
+      },
+      {
+         "from":"TERMO_APL",
+         "to":"FUND_AEROD",
+         "type":"prereq"
+      },
+      {
+         "from":"ECU_DIF",
+         "to":"FUND_AEROD",
+         "type":"prereq"
+      },
+      {
+         "from":"FUND_AEROD",
+         "to":"LAB_FUND_AEROD",
+         "type":"coreq"
+      },
+      {
+         "from":"TERMO_APL",
+         "to":"LAB_FUND_AEROD",
+         "type":"prereq"
+      },
+      {
+         "from":"ECU_DIF",
+         "to":"LAB_FUND_AEROD",
+         "type":"prereq"
+      },
+      {
+         "from":"MEC_MAT",
+         "to":"MATERIALES_AERO",
+         "type":"prereq"
+      },
+      {
+         "from":"MATERIALES_AERO",
+         "to":"LAB_MATERIALES_AERO",
+         "type":"coreq"
+      },
+      {
+         "from":"MEC_MAT",
+         "to":"LAB_MATERIALES_AERO",
+         "type":"prereq"
+      },
+      {
+         "from":"SIS_AER_II",
+         "to":"LEGISLACION",
+         "type":"prereq"
+      },
+      {
+         "from":"MATERIALES_AERO",
+         "to":"MAN_AERO",
+         "type":"prereq"
+      },
+      {
+         "from":"MATERIALES_AERO",
+         "to":"LAB_MAN_AERO",
+         "type":"prereq"
+      },
+      {
+         "from":"SIS_AER_II",
+         "to":"SIS_ELECT_AER",
+         "type":"prereq"
+      },
+      {
+         "from":"ELEC_MAG",
+         "to":"SIS_ELECT_AER",
+         "type":"prereq"
+      },
+      {
+         "from":"SIS_AER_II",
+         "to":"LAB_SIS_ELECT_AER",
+         "type":"prereq"
+      },
+      {
+         "from":"ELEC_MAG",
+         "to":"LAB_SIS_ELECT_AER",
+         "type":"prereq"
+      },
+      {
+         "from":"SIS_ELECT_AER",
+         "to":"LAB_SIS_ELECT_AER",
+         "type":"coreq"
+      },
+      {
+         "from":"FUND_AEROD",
+         "to":"AERODINAMICA",
+         "type":"prereq"
+      },
+      {
+         "from":"FUND_AEROD",
+         "to":"LAB_AERODINAMICA",
+         "type":"prereq"
+      },
+      {
+         "from":"AERODINAMICA",
+         "to":"LAB_AERODINAMICA",
+         "type":"prereq"
+      },
+      {
+         "from":"FUND_AEROD",
+         "to":"PROP_I",
+         "type":"prereq"
+      },
+      {
+         "from":"TRANSF_CALOR",
+         "to":"PROP_I",
+         "type":"prereq"
+      },
+      {
+         "from":"PROP_I",
+         "to":"LAB_PROP_I",
+         "type":"prereq"
+      },
+      {
+         "from":"FUND_AEROD",
+         "to":"LAB_PROP_I",
+         "type":"prereq"
+      },
+      {
+         "from":"TRANSF_CALOR",
+         "to":"LAB_PROP_I",
+         "type":"prereq"
+      },
+      {
+         "from":"LEGISLACION",
+         "to":"AERO_MANT",
+         "type":"prereq"
+      },
+      {
+         "from":"SIS_ELECT_AER",
+         "to":"AERO_MANT",
+         "type":"prereq"
+      },
+      {
+         "from":"SIS_ELECT_AER",
+         "to":"AVIONICA",
+         "type":"prereq"
+      },
+      {
+         "from":"AERODINAMICA",
+         "to":"DINAMICA_VUELO",
+         "type":"prereq"
+      },
+      {
+         "from":"MET_NUM",
+         "to":"DINAMICA_VUELO",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_VEC",
+         "to":"ECU_DIF",
+         "type":"prereq"
+      },
+      {
+         "from":"AERODINAMICA",
+         "to":"ESTRUCTURAS",
+         "type":"prereq"
+      },
+      {
+         "from":"MAN_AERO",
+         "to":"ESTRUCTURAS",
+         "type":"prereq"
+      },
+      {
+         "from":"LEGISLACION",
+         "to":"ESTRUCTURAS",
+         "type":"prereq"
+      },
+      {
+         "from":"AERODINAMICA",
+         "to":"ING_COHE_SAT",
+         "type":"prereq"
+      },
+      {
+         "from":"PROP_I",
+         "to":"ING_COHE_SAT",
+         "type":"prereq"
+      },
+      {
+         "from":"FUND_AEROD",
+         "to":"OPT_I",
+         "type":"prereq"
+      },
+      {
+         "from":"AERODINAMICA",
+         "to":"OPT_II",
+         "type":"prereq"
+      },
+      {
+         "from":"AERO_MANT",
+         "to":"CERT_EMP_PROD",
+         "type":"prereq"
+      },
+      {
+         "from":"ESTRUCTURAS",
+         "to":"CERT_EMP_PROD",
+         "type":"prereq"
+      },
+      {
+         "from":"DINAMICA_VUELO",
+         "to":"CTRL_AUT_VUELO",
+         "type":"prereq"
+      },
+      {
+         "from":"AVIONICA",
+         "to":"DIS_AERO_I",
+         "type":"prereq"
+      },
+      {
+         "from":"DINAMICA_VUELO",
+         "to":"DIS_AERO_I",
+         "type":"prereq"
+      },
+      {
+         "from":"AERO_MANT",
+         "to":"DIS_AERO_I",
+         "type":"prereq"
+      },
+      {
+         "from":"ESTRUCTURAS",
+         "to":"DIS_AERO_I",
+         "type":"prereq"
+      },
+      {
+         "from":"PROP_I",
+         "to":"PROP_II",
+         "type":"prereq"
+      },
+      {
+         "from":"AERO_MANT",
+         "to":"REND_OP",
+         "type":"prereq"
+      },
+      {
+         "from":"AERO_MANT",
+         "to":"LAB_REND_OP",
+         "type":"prereq"
+      },
+      {
+         "from":"REND_OP",
+         "to":"LAB_REND_OP",
+         "type":"coreq"
+      },
+      {
+         "from":"CERT_EMP_PROD",
+         "to":"GERE_COSTOS_AERO",
+         "type":"prereq"
+      },
+      {
+         "from":"GES_PROYECTO",
+         "to":"GERE_COSTOS_AERO",
+         "type":"prereq"
+      },
+      {
+         "from":"AERO_MANT",
+         "to":"FACT_HUM",
+         "type":"prereq"
+      },
+      {
+         "from":"CERT_EMP_PROD",
+         "to":"GEST_MANT",
+         "type":"prereq"
+      },
+      {
+         "from":"DIS_AERO_I",
+         "to":"DIS_AERO_II",
+         "type":"prereq"
+      },
+      {
+         "from":"CERT_EMP_PROD",
+         "to":"DIS_AERO_II",
+         "type":"prereq"
+      },
+      {
+         "from":"REND_OP",
+         "to":"DIS_AERO_II",
+         "type":"prereq"
+      },
+      {
+         "from":"PROP_II",
+         "to":"DIS_AERO_II",
+         "type":"prereq"
+      },
+      {
+         "from":"ESTRUCTURAS",
+         "to":"PRUE_NO_DEST",
+         "type":"prereq"
+      },
+      {
+         "from":"PRUE_NO_DEST",
+         "to":"LAB_PRUE_NO_DEST",
+         "type":"prereq"
+      },
+      {
+         "from":"ESTRUCTURAS",
+         "to":"LAB_PRUE_NO_DEST",
+         "type":"prereq"
+      }
+   ]
+}

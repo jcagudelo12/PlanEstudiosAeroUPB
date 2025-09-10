@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pensum Interactivo – Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <h1>Pensum Interactivo</h1>
+      <div class="controls">
+        <input id="search" type="text" placeholder="Buscar materia…" />
+        <label><input type="checkbox" id="toggleAll" /> Mostrar TODAS las flechas</label>
+        <label><input type="checkbox" id="toggleTransitive" unChecked/> Prerrequisitos en cascada</label>
+        <button class="btn" id="btnExport">Exportar JSON</button>
+        <label class="btn secondary" for="fileInput">Cargar JSON/CSV</label>
+        <input id="fileInput" class="file" type="file" accept=".json,.csv" />
+      </div>
+    </div>
+    <div class="legend">
+        <span class="pill"><span class="dot" style="background:var(--edge)"></span> Flechas base</span>
+        <span class="pill"><span class="dot" style="background:var(--edge-active)"></span> Flechas activas</span>
+        <span class="pill"><span class="dot" style="background:var(--prereq)"></span> Prerrequisito</span>
+        <span class="pill"><span class="dot" style="background:var(--selected)"></span> Selección</span>
+        <span class="pill"><span class="dot" style="background:var(--cat-cbfh)"></span> CBFH</span>
+        <span class="pill"><span class="dot" style="background:var(--cat-cbd)"></span> CBD</span>
+        <span class="pill"><span class="dot" style="background:var(--cat-cp)"></span> CP</span>
+        <span class="pill"><span class="dot" style="background:var(--cat-cdi)"></span> CDI</span>
+    </div>
+  </header>
+
+  <main>
+    <div id="canvas">
+      <svg id="wires"></svg>
+      <div id="grid" class="grid" aria-live="polite"></div>
+      <aside id="panel"></aside>
+    </div>
+  </main>
+</body>
+</html>
