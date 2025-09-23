@@ -518,16 +518,16 @@
       },
       {
          "from":"CALC_DIFF",
-         "to":"ALG_LINEAL",
-         "type":"prereq"
-      },
-      {
-         "from":"CALC_DIFF",
          "to":"CALC_INT",
          "type":"prereq"
       },
       {
          "from":"CALC_INT",
+         "to":"CALC_VEC",
+         "type":"prereq"
+      },
+      {
+         "from":"GEOM_ANAL",
          "to":"CALC_VEC",
          "type":"prereq"
       },
@@ -822,7 +822,7 @@
          "type":"prereq"
       },
       {
-         "from":"CALC_VEC",
+         "from":"CALC_INT",
          "to":"ECU_DIF",
          "type":"prereq"
       },
