@@ -970,6 +970,16 @@
          "from":"ESTRUCTURAS",
          "to":"LAB_PRUE_NO_DEST",
          "type":"prereq"
+      },
+      {
+         "from":"CALC_INT",
+         "to":"ELEC_MAG",
+         "type":"prereq"
+      },
+      {
+         "from":"CALC_INT",
+         "to":"MET_EXP_FIS",
+         "type":"prereq"
       }
    ]
 }
